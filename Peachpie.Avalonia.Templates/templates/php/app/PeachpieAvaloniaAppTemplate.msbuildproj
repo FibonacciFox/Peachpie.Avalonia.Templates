@@ -7,8 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Remove=".sdk\**\*" />
         <Compile Include="**/*.php" />
+        <Compile Remove=".sdk\**\*" />
         <AvaloniaResource Include="Assets\**" />
         <AvaloniaResource Include="Styles\**" />
     </ItemGroup>

@@ -6,7 +6,7 @@
                     mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="500"
                     Width="500" Height="500"
                     Icon="/Assets/icon.png"
-                    x:Class="PeachpieAvaloniaAppTemplate.MainWindow"
+                    x:Class="View.MainWindow"
                     Title="PeachpieAvaloniaAppTemplate">
     <controls:UxPanel>
         <controls:UxTextBlock Name="DateView" HorizontalAlignment="Center" VerticalAlignment="Center"/>

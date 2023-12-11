@@ -1,11 +1,11 @@
 <?php
 
-namespace PeachpieAvaloniaAppTemplate;
+namespace View;
 
-use Peachpie\Avalonia\Markup\Xaml\AvaloniaXamlLoader;
 use Avalonia\Threading\DispatcherTimer;
 use Peachpie\Avalonia\Controls\UxTextBlock;
 use Peachpie\Avalonia\Controls\UxWindow;
+use Peachpie\Avalonia\Markup\Xaml\AvaloniaXamlLoader;
 use System\TimeSpan;
 
 class MainWindow extends UxWindow
