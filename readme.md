@@ -57,3 +57,8 @@ To create a new `ResourceDictionary` called `MyResources`, run:
 ```
 dotnet new avalonia.resource -n MyResources
 ```
+## To remove a template package, use the following:
+
+```powershell
+ dotnet new uninstall Peachpie.Avalonia.Templates
+```
