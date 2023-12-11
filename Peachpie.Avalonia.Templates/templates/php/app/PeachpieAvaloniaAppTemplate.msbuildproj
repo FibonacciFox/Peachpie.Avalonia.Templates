@@ -1,0 +1,20 @@
+<Project Sdk="Peachpie.NET.Sdk/1.2.0-r16166">
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <StartupObject>Program.php</StartupObject>
+        <TargetFramework>net7.0</TargetFramework>
+        <Description>A cross-platform Avalonia UI PHP Application targeting Desktop</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="**/*.php" />
+        <Compile Remove=".sdk\**\*" />
+        <AvaloniaResource Include="Assets\**" />
+        <AvaloniaResource Include="Styles\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Peachpie.Avalonia" Version="0.0.4-alpha" />
+    </ItemGroup>
+
+</Project>
