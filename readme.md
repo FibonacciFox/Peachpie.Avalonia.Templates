@@ -15,7 +15,7 @@ The templates should now be available in `dotnet new list peachpie.avalonia`:
 ```
 Template Name                        Short Name                 Language  Tags
 -----------------------------------  -------------------------  --------  -----------------------------------------
-Avalonia PHP App  peachpie.avalonia.app  PHP   Avalonia/Peachpie/PHP
+Avalonia PHP App                      peachpie.avalonia.app        PHP     Avalonia/Peachpie/PHP
 ```
 
 # Creating a new Application
